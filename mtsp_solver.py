@@ -1,4 +1,4 @@
-import pygame,random,copy,math
+import pygame,random,copy,math,sys
 
 
 display_width=500
@@ -293,7 +293,10 @@ def game_loop(duration, group):
 
 
 
-random.seed(5)
+seed=5
+if len(sys.argv)>1:
+	seed=int(sys.argv[1])
+random.seed(seed)
 
 numberTargets=15
 numberDepots=4
