@@ -8,10 +8,11 @@ Following is a run of the algorithm,
 
 ### Instructions To Run
 Clone this repository  
+
 Navigate to project folder in terminal or command prompt  
+
 Run command,  
 ```bash
 python mtsp_solver.py <seed>
 ```
-Where \<seed\> is the random seed for environment instantiation.  
-Leave it blank for random environment initialization.  
+Where \<seed\> is the random seed for environment instantiation (leave blank for random environment initialization)  
