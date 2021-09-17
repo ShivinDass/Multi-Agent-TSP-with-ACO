@@ -1,9 +1,9 @@
 # Multi-Agent-TSP-with-ACO
 The problem of multi-agent TSP solved using ant colony optimization.  
 
-Following is a run of the algorithm,  
-![](mtsp_aco_animation.gif)
+Following is a run of the algorithm,
 
+<img src="mtsp_aco_animation.gif" width="350" height="350"/>
 
 
 ### Instructions To Run
